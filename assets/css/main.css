@@ -1,0 +1,75 @@
+.banner-vaccination {
+  /*position: absolute;*/
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.container-image-banner {
+}
+
+.img-banner {
+  object-fit: cover;
+  width: 100%;
+  height: 86vh;
+}
+
+.container-span-banner {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+html {
+}
+
+* {
+  font-family: 'Be Vietnam Pro';
+}
+
+.text-icon-banner {
+  margin-left: 12px;
+}
+
+.container-form-vaccination {
+  bottom: 12px;
+  position: absolute;
+  border: 12px;
+  margin-left: 200px;
+}
+
+.container-input-vaccines {
+  border-radius: 12px;
+  padding: 24px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 80px;
+}
+
+.title-form-vaccine {
+  margin-left: 12px;
+}
+
+.text-form-vaccine {
+  float: right;
+}
+
+.btn-submit-vaccine {
+  border-radius: 4px;
+}
+
+.portfolio-navbar.gradient {
+  padding: 0px;
+}
+
+.btn-next {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  padding: 24px;
+  font-size: 32px;
+  color: white;
+  background-color: #7a72f5;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
